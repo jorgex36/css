@@ -1,0 +1,143 @@
+body{font-family: 'Dancing Script', cursive;
+background-color:  #02010a;
+width: 100%;
+}
+.content {width: 900px;
+text-align: center;
+margin: 0 auto;
+}
+
+header{
+  background-color: #5b7989;
+  color: white;
+  text-shadow: 2px #02010a;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  flex-direction: row;
+
+  }
+h1 {margin: 25px;
+padding: 5vh;
+width: 50%;
+font-size: 2em;
+text-align: left;
+}
+
+#menu > a {
+  text-align: right;
+  font-size: 2em;
+  color: inherit;}
+#actual{text-decoration: none;}
+#menu {  word-spacing: 1em;
+margin: 15px;
+padding: 7vh 0vh;
+text-align: right;
+  }
+.contenedor{width: 100% auto;
+   background-color:  #d5c75f;
+   display: flex;
+   flex-direction: column;
+ text-align: center;}
+
+section{display: flex;
+flex-direction: row;
+width: 100%;
+padding: 1.5vh
+}
+section>img {width: 31.3%;
+  padding:0vh 1vh;
+}
+
+#p1 {-webkit-filter: blur(10px);}
+#p2, #p4, #p6{-webkit-filter: GrayScale(100%);}
+#p3{-webkit-filter: sepia(90%);}
+
+footer{
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 8px 8px;
+  display: flex;
+  flex-direction: row;
+  padding: 2vh; }
+  .contacto > a{text-decoration: none;
+    color: inherit;
+  }
+  .contacto{text-align: center;
+  margin: 0 auto;
+  padding: 5vh;
+  width: 25%;
+  }
+  .derechos{text-align: center;
+  margin: 0 auto;
+  padding: 10vh 0vh;
+  width: 25%;}
+  .terminos{text-align: center;
+  margin: 0 auto;
+  padding: 10vh 0vh;
+  width: 25%;}
+  .redes{text-align: left;
+  margin: 0 auto;}
+
+p>img{ width: 20px;
+margin: 0;
+padding: 0;}
+@-webkit-keyframes anime2 {
+
+  0%{position: relative;
+  margin-top: 150%;}
+  60%{position: relative;
+  margin-top: -5%;}
+  100%{position: relative;
+  margin-top: 0%;}
+}
+header {animation: anime2 2s;
+}
+@media (max-width:900px) {
+  .content {width: 100%;
+  margin: 0 auto;}
+header{display: flex;
+flex-direction: column;
+}
+
+h1{width: 100%;
+  text-align: center;
+padding: 0vh;}
+
+  #menu{width: 100%;
+  text-align: center;
+padding: 0vh;}
+
+section{display: flex;
+flex-direction: column;
+padding: 0vh;
+text-align: right;}
+section > img{padding: 1.5vh;
+  width:90%;
+  margin: 0 auto;}
+footer{display: flex;
+flex-direction: column;
+text-align: left;}
+.contacto{text-align: left;
+width: 80%;
+padding: 0vh;}
+.derechos{text-align: left;
+width: 80%;
+padding: 0vh;}
+.terminos{text-align: left;
+width: 80%;
+padding: 0vh;}
+.redes{text-align: left;
+width: 80%;
+padding: 0vh;}
+
+
+@-webkit-keyframes anime2 {
+
+  0%{position: relative;
+  margin-top: 150%;}
+  60%{position: relative;
+  margin-top: -5%;}
+  100%{position: relative;
+  margin-top: 0%;}
+}
+header {animation: anime2 2s;
+}

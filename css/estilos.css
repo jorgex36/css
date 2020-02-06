@@ -1,0 +1,173 @@
+body{font-family: 'Dancing Script', cursive;
+background-color:  #02010a;
+width: 100%;
+}
+.content{width: 900px;
+text-align: center;
+margin: 0 auto;
+}
+
+header{
+  background-color: #5b7989;
+  color: white;
+  text-shadow: 2px #02010a;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  }
+h1 {margin: 25px;
+padding: 5vh;
+width: 50%;
+font-size: 2em;
+text-align: left;}
+
+img{box-shadow: 0px 0px 0px 2px #02010a;}
+#menu > a {
+  text-align: right;
+  font-size: 2em;
+  color: inherit;}
+#actual{text-decoration: none;}
+#menu {  word-spacing: 1em;
+margin: 15px;
+padding: 7vh 0vh;
+text-align: right;
+
+  }
+
+#central > img { width: 50%;}
+#central{text-align: center;
+padding: 5vh;
+background-color: #82c3a6;}
+#secundaria {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  background-color:  #d5c75f;
+}
+
+#secundaria > a {
+  width: 100%;
+  padding: 5vh;
+}
+
+ #derecha {
+ border: 1px solid black;
+ width: 92%;
+}
+#derecha:hover{
+  -ms-transform: translate(20px, -5px);
+  -webkit-transform: translate(20px, -5px);
+  box-shadow: 0px 0px 10px 8px #82c3a6;
+  border: 2px solid black;
+}
+ #izquierda {
+ border: 1px solid black;
+width: 100%;
+}
+
+#izquierda:hover{
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  box-shadow: #82c3a6;
+  border: 2px solid black;
+}
+
+footer{
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 8px 8px;
+  display: flex;
+  flex-direction: row;
+  padding: 2vh;
+
+}
+.contacto > a{text-decoration: none;
+  color: inherit;
+}
+.contacto{text-align: center;
+margin: 0 auto;
+padding: 5vh;
+width: 25%;
+}
+.derechos{text-align: center;
+margin: 0 auto;
+padding: 10vh 0vh;
+width: 25%;}
+.terminos{text-align: center;
+margin: 0 auto;
+padding: 10vh 0vh;
+width: 25%;}
+.redes{text-align: left;
+margin: 0 auto;}
+
+ p> img{width: 20px;
+  box-shadow: 0px 0px 0px 0px #02010a;
+  margin: 0;
+  padding: 0;
+
+}
+
+figure{display: flex;
+flex-flow: column;}
+@-webkit-keyframes anime2 {
+
+  0%{position: relative;
+  margin-top: 150%;}
+  60%{position: relative;
+  margin-top: -5%;}
+  100%{position: relative;
+  margin-top: 0%;}
+}
+header {animation: anime2 2s;
+}
+
+
+
+@media (max-width:900px)
+{
+  .content {width: 100%;
+  margin: 0 auto;}
+header{display: flex;
+flex-direction: column;
+}
+
+h1{width: 100%;
+  text-align: center;
+padding: 0vh;}
+
+  #menu{width: 100%;
+  text-align: center;
+padding: 0vh;}
+#secundaria {display: flex;
+flex-wrap: wrap;
+width:100%;}
+  #central > img {width: 100%}
+
+footer{display: flex;
+flex-direction: column;
+text-align: left;
+}
+.contacto{text-align: left;
+width: 80%;
+padding: 0vh;}
+.derechos{text-align: left;
+width: 80%;
+padding: 0vh;}
+.terminos{text-align: left;
+width: 80%;
+padding: 0vh;}
+.redes{text-align: left;
+width: 80%;
+padding: 0vh;}
+}
+@-webkit-keyframes anime2 {
+
+  0%{position: relative;
+  margin-top: 150%;}
+  60%{position: relative;
+  margin-top: -5%;}
+  100%{position: relative;
+  margin-top: 0%;}
+}
+header {animation: anime2 2s;
+}
